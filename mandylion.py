@@ -1,6 +1,4 @@
-from django.http import HttpResponse
-
-from projects.common import Project
+from projects.common import HttpResponse, Project
 from django.db import connection
 import json
 import numpy as np
